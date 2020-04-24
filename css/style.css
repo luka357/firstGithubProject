@@ -29,7 +29,18 @@
 h1{
     color:red;
 }
+.container{
+    width: 900px;
+    background-color: rebeccapurple;
 
+}
 #h1First{
     font-family: 'BPG Classic Medium', sans-serif;
+}
+.shalal{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 5px;
 }
