@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: '3D Unicode';
+    src: url('../fonts/3dunicorn/3DUnicode.eot');
+    src: url('../fonts/3dunicorn/3DUnicode.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/3dunicorn/3DUnicode.woff2') format('woff2'),
+        url('../fonts/3dunicorn/3DUnicode.woff') format('woff'),
+        url('../fonts/3dunicorn/3DUnicode.ttf') format('truetype'),
+        url('../fonts/3dunicorn/3DUnicode.svg#3DUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BPG Classic Medium';
+    src: url('../fonts/medium/bpg-classic-medium-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/medium/bpg-classic-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/medium/bpg-classic-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/medium/bpg-classic-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/medium/bpg-classic-medium-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/medium/bpg-classic-medium-webfont.svg#bpg_classic_mediumregular') format('svg'); /* Legacy iOS */
+}
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1{
+    color:red;
+}
+
+#h1First{
+    font-family: 'BPG Classic Medium', sans-serif;
+}
